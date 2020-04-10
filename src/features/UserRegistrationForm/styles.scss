@@ -1,0 +1,20 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 33% 33%;
+  width: 30%;
+
+  & > div {
+    margin: 0.5em;
+  }
+}
+input {
+  width: 20em;
+}
+
+button {
+  width: 8em;
+  border: 1px solid;
+  padding: 1em;
+  border-radius: 4px;
+  color:#2c2c2c
+}
